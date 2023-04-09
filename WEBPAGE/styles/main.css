@@ -5,77 +5,61 @@ April 9, 2023
 
 coding tutorial credit - https://freshman.tech/flexbox-navbar/ 
 
-https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+https://codepen.io/tedib/pen/mdypQbg
+*/
 
 /*
 Fonts 
-font-family: 'Dosis', sans-serif; Body Text
-font-family: 'Montserrat', sans-serif; Headers
-font-family: 'Montserrat Alternates', sans-serif; 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Public Sans', sans-serif;
 */
 
+main h2, h3, p {
+    font-family: 'Public Sans', sans-serif;
+}
 
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+}
 
-
-html {
-    box-sizing: border-box;
-  }
-
-*, *::before, *::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
-
-.link a {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 15px;
-    color: #ffde59;
-    font-family: 'Dosis', sans-serif;
-  }
-
-.link {
-    display: flex;
+.topnavbar  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+      background: #5271ff;
 }
 
 .logo {
-    display: inline-block;
+  width: 175px;
+  height: 175px;
+  margin: 20px 0 0 1px;
+}
     
-    vertical-align: middle;
-    border: 4px solid #7ed957;   
-} 
 
-nav {
-    width: 100%;
-    background-color: #5271ff;
-    padding-left: 30px;
-    padding-right: 10px;
+.logo, .navlinks {
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+.logo a, .navlinks a {
+        text-decoration: none;
+    }
+
+.navlinks  {
+  display: flex;
 }
 
-.topnavbar div {
-    display: flex; 
-    justify-content: space-between;
-  }
-  
-.topnavbar li {
-    background: #5271ff;
-    height: 100px;
-    flex: 1;
-  }
-
-  
-/*.topnavbar {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: #5271ff;
+.navlinks a {
+  display: block;
+  padding: 6em;
+  color: #ffde59;
+  font-size: 115%;
 }
-  
-.topnavbar > link {
-    background-color: #5271ff;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}*/
+
+footer {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
