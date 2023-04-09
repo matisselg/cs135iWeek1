@@ -15,7 +15,6 @@ font-family: 'Montserrat Alternates', sans-serif;
   
 .topnavbar li {
     background: #5271ff;
-    border: 2px solid #ffde59;
     height: 100px;
     flex: 1;
   }
