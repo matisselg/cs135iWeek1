@@ -25,6 +25,10 @@ main h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+form {
+  font-family: 'Public Sans', sans-serif;
+}
+
 .topnavbar  {
   display: flex;
   justify-content: space-between;
@@ -57,6 +61,17 @@ main h1 {
   padding: 6em;
   color: #ffde59;
   font-size: 115%;
+}
+
+.body {
+  background-color: #ffde59;
+}
+
+.imgtoothbrush {
+  border: 1px solid #ff3131;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
 }
 
 footer {
