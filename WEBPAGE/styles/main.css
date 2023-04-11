@@ -17,7 +17,7 @@ font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'Public Sans', sans-serif;
 */
 
-main h2, h3, p {
+main h2, h3, p, li {
     font-family: 'Public Sans', sans-serif;
 }
 
@@ -67,7 +67,7 @@ form {
   background-color: #ffde59;
 }
 
-.imgtoothbrush {
+.images {
   border: 1px solid #ff3131;
   border-radius: 4px;
   padding: 5px;
